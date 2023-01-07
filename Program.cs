@@ -11,4 +11,4 @@ for (int i = 0; i < ArrayA.Length; i++)
         ArrayB[ArrayB.Length-1] = ArrayA[i];
     }
 }
-Console.WriteLine($"[{string.Join(",", ArrayA)}]=>[{string.Join(",", ArrayB)}]");
+Console.WriteLine($"[{string.Join(",", ArrayA)}] => [{string.Join(",", ArrayB)}]");
